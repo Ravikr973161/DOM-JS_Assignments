@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+body{
+    background: linear-gradient(90deg,#1B98F5 0%,#2827CC 100%);
+    color: #ffffff;
+}
+
+
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 120px;
+    color: #ffffff;
+    font-family: 'Montserrat', serif;
+    font-weight:400;
+}
+
+span{
+    color: #1f1f1f;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+p{
+text-align: center;
+margin-top: -20px;
+font-size: 20px;
+letter-spacing: 3px;
+}
+
+button{
+    margin: auto;
+    display: block;
+}
+
+.btn{
+    background-color: transparent;
+    border: 2px solid #1f1f1f;
+    border-radius: 0.6rem;
+    color: #1f1f1f;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    padding: .6em;  
+    cursor: grab;
+    text-align: center;
+    text-transform: uppercase;
+ 
+   
+}
+
+.btn:hover{
+    color:#ffffff;
+    outline:0;
+}
+
+
+.lco{/* property name | duration | easing function | delay */
+    transition: box-shadow 300ms ease-in-out,color 300ms easy-in-out;  
+}
+
+.lco:hover{
+    box-shadow: 0 0 40px 40px  #1f1f1f inset;
+}
+
+/* footer */
+.foot-head{
+    background-color: #1f1f1f;
+    color: #ffffff;
+    display: block;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 35px;
+
+}
