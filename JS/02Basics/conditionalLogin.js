@@ -14,3 +14,18 @@ if(email || facebook || Googele){
 else{
     console.log("Login failed");
 }
+
+
+//Allowing to purchase
+//loggedIn, email Veried, CordInform valid
+//if anything missing stop from purchase
+
+let isLoggedIn=true;
+let isVerified=true;
+let cordInfo=true;
+
+if(isLoggedIn && isVerified && cordInfo){
+    console.log("He allowed to purchase");
+}else{
+    console.log("Not allowed to purchase")
+}
