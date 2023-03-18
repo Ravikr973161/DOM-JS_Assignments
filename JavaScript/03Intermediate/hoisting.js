@@ -36,8 +36,10 @@
 
   function SayHello(){
     let MyName="Hitesh";
+    console.log(MyName);
 
   }
+  SayHello();
   console.log(MyName);
 
 
